@@ -35,9 +35,12 @@ body {
 /* HEADER */
 
 .page-header {
-  background-color: orange;
+  background-color: hsl(24.8deg 100% 49.8%);
   padding: 10px;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .page-header > .container {
