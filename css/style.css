@@ -124,6 +124,23 @@ main .container {
   right: 0;
 
   background-color: white;
+  color: black;
+  font-size: 2rem;
+  padding: 0 10px;
+}
+
+.heart-box:hover {
   color: red;
-  font-size: 1rem;
+}
+
+.img-hov {
+  display: none;
+}
+
+.item-card:hover .img-non-hov {
+  display: none;
+}
+
+.item-card:hover .img-hov {
+  display: inline-block;
 }
