@@ -85,35 +85,35 @@ main .container {
   position: relative;
 }
 
-.item-img-container.discounted50::after {
+.discount-box {
+  width: 100%;
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+}
+
+.discount-box.discounted50::before {
   content: "-50%";
   background-color: red;
   color: white;
-  position: absolute;
-  left: 0;
-  bottom: 5%;
   font-size: 0.7rem;
   padding: 5px 10px;
+  margin-right: 3px;
 }
 
-.item-img-container.discounted30::after {
+.discount-box.discounted30::before {
   content: "-30%";
   background-color: red;
   color: white;
-  position: absolute;
-  left: 0;
-  bottom: 5%;
   font-size: 0.7rem;
   padding: 5px 10px;
+  margin-right: 3px;
 }
 
-.item-img-container.sust::before {
+.discount-box.sust::after {
   content: "Sostenibilità";
   background-color: green;
   color: white;
-  position: absolute;
-  left: 15%;
-  bottom: 5%;
   font-size: 0.7rem;
   padding: 5px 10px;
 }
@@ -128,6 +128,8 @@ main .container {
   font-size: 2rem;
   padding: 0 10px;
 }
+
+/* CARD HOVER */
 
 .heart-box:hover {
   color: red;
