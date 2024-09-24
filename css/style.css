@@ -6,6 +6,23 @@
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* UTILS */
 
 .container {
@@ -16,5 +33,21 @@
 }
 
 .page-header {
-  background-color: darkblue;
+  background-color: orange;
+  padding: 10px;
+  color: white;
+}
+
+.page-header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+}
+
+.page-header li {
+  display: inline-block;
 }
